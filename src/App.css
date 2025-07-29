@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  gap: 20px;
+}
+
+.header img {
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  margin: 20px 0;
+}
+
+input {
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  margin-left: 40px;
+  padding: 2px;
+  cursor: pointer;
+}
