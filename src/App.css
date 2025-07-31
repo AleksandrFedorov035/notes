@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.App {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,17 +27,26 @@ form {
 
 input {
   margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #000;
 }
 
-ul {
-  list-style-type: none;
+li {
+  margin-bottom: 10px;
+}
+
+.note-container {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.note-container button {
+  margin-left: 20px;
 }
 
 button {
-  margin-left: 40px;
-  padding: 2px;
   cursor: pointer;
+  padding: 5px;
 }
