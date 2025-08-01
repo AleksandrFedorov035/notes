@@ -19,7 +19,6 @@ async function createNote(content) {
   };
 
   const response = await fetch(BASE_URL + 'notes', options);
-  return response.json();
 }
 
 async function deleteNote(id) {
@@ -28,7 +27,6 @@ async function deleteNote(id) {
   };
 
   const response = await fetch(BASE_URL + `notes/${id}`, options);
-  return response.json();
 }
 
 export { fetchAllNotes, createNote, deleteNote };
